@@ -3,7 +3,7 @@ import "./App.css"
 export default function Foot() {
     return (
         <p>
-            
-          GitHub Repository by Frances-Janelle Torres </p>
+            <a href="https://github.com/francesjanelle/react-weather-magic">
+          GitHub Repository </a> by Frances-Janelle Torres </p>
     )
 }

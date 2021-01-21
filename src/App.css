@@ -43,3 +43,9 @@
 .MainContent {
   padding: 10px auto;
 }
+
+.Footer {
+  color: black;
+  margin: 10px auto;
+  padding: 10px auto;
+}

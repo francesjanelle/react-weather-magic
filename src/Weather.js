@@ -8,12 +8,11 @@ export default function Weather(props) {
 
     function showTemp(response) {
         let temp = Math.round(response.data.main.temp);
-        let fahr = Math.round(Math.round(response.data.main.temp) * (9 / 5) + 32)
-        //seriously, there has to be a better way doing this...
+        let fahr = Math.round(temp * (9 / 5) + 32);
 
         setText(
             <div className="message">
-                The temperature is {temp}°C ({fahr})°F in {city}
+                The temperature is {temp}°C ({fahr}°F) in {city}.
             </div>
         )
     }
